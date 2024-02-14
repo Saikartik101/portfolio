@@ -147,7 +147,7 @@ const Navbar = () => {
                                             <a onClick={handleMobileNav}>Projects</a>
                                         </Link>
                                     </h1>
-                       
+                                  
                                 </div>
                                 <div className='space-x-4 pt-20'>
                                     <div className='flex space-x-4'>
