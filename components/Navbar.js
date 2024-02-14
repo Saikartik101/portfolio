@@ -147,17 +147,7 @@ const Navbar = () => {
                                             <a onClick={handleMobileNav}>Projects</a>
                                         </Link>
                                     </h1>
-                                    <h1
-                                        className={
-                                        router.pathname == '/blog'
-                                            ? 'text-blue-500'
-                                            : 'cursor-pointer hover:text-blue-500'
-                                    }
-                                    >
-                                        <Link id='blog' href='/blog'>
-                                            <a onClick={handleMobileNav}>Blog</a>
-                                        </Link>
-                                    </h1>
+                       
                                 </div>
                                 <div className='space-x-4 pt-20'>
                                     <div className='flex space-x-4'>
